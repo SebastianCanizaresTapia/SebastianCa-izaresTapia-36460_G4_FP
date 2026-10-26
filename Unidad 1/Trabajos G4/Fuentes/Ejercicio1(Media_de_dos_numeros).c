@@ -1,6 +1,6 @@
 //Ejercicio1
 //Media de dos valores
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 
