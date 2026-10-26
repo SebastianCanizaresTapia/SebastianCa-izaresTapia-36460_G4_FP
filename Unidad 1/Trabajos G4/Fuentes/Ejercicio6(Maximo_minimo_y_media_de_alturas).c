@@ -1,6 +1,6 @@
 //Ejercicio6
 //Maximo, minimo y media de alturas
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 
