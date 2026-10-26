@@ -1,6 +1,6 @@
 //Ejercicio5
 //Conversion de unidades de tiempo
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 
