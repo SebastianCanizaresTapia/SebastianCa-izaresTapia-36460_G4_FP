@@ -1,6 +1,6 @@
 //Ejercicio12
 //Suma de digitos
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 #include<stdio.h>
