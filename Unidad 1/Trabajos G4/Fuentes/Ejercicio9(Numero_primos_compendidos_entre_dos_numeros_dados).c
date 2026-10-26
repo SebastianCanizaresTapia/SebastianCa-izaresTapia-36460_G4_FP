@@ -1,6 +1,6 @@
 //Ejercicio9
 //Numeros primos comprendidos entre dos numeros dados
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 
