@@ -1,6 +1,6 @@
 //Ejercicio20
-//Adivina el número
-//Jhostyn Adriano Paca Pérez
+//Adivina el nÃºmero
+//SebastiÃ¡n CaÃ±izares / Samanta Simba / Jhostyn Adriano Paca PÃ©rez
 //NRC:36460
 
 #include <stdio.h>
@@ -26,7 +26,7 @@ int main() {
         } else if (intento > secreto) {
             printf("Mas bajo!\n");
         } else {
-            printf("¡Acertaste!\n");
+            printf("Â¡Acertaste!\n");
         }
 
     } while (intento != secreto);
