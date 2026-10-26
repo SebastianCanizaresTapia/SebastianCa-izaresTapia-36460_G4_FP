@@ -1,6 +1,6 @@
 //Ejercicio17
 //Conversion de decimal a binario
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 #include<stdio.h>
