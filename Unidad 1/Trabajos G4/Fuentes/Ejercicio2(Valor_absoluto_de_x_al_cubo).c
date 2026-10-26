@@ -1,6 +1,6 @@
 //Ejercicio2
 //Valor absoluto de un numero al cubo
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 
