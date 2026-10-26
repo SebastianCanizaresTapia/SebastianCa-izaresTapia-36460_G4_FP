@@ -1,6 +1,6 @@
 //Ejercicio14
 //Maximo comun divisor (Algoritmo de Euclides)
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 #include<stdio.h>
