@@ -1,6 +1,6 @@
 //Ejercicio13
 //Numero capicua
-//Jhostyn Adriano Paca P�rez
+//Sebastián Cañizares / Samanta Simba / Jhostyn Adriano Paca Pérez
 //NRC:36460
 
 #include<stdio.h>
