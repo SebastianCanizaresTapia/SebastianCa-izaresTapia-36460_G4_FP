@@ -1,7 +1,8 @@
 //Universidad de las Fuerzas Armadas ESPE
-//Nombre: Samanta Aracely Simba O�a
+//Nombre: Samanta Aracely Simba Oña
 //NRC:36460
-//Problema 1.14. M�ximo com�n divisor (algoritmo de Euclides)
+//Problema 1.14. Máximo común divisor (algoritmo de Euclides)
+//Desarrolla un programa que lea dos enteros positivos a y b y calcule su máximo común divisor con el algoritmo de Euclides: mientras b ≠ 0, reemplaza (a, b) por (b, a % b). Al terminar, a es el MCD.
 
 #include <stdio.h>
 
