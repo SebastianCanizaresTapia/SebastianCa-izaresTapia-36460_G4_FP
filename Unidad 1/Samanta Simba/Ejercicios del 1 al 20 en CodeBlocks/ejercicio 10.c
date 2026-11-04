@@ -1,7 +1,8 @@
 //Universidad de las Fuerzas Armadas ESPE
-//Nombre: Samanta Aracely Simba O�a
+//Nombre: Samanta Aracely Simba Oña
 //NRC:36460
 //Problema 1.10. Factorial
+//Desarrolla un programa que lea un número entero n ≥ 0 y calcule n! = 1 · 2 · … · n, sabiendo que 0! =1.
 
 #include <stdio.h>
 
