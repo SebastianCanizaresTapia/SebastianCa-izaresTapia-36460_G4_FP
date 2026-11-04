@@ -2,8 +2,7 @@
 //Nombre: Samanta Aracely Simba Oña
 //NRC:36460
 //Problema 1.18. Triángulo de asteriscos
-//Enunciado:Desarrolla un programa que lea un entero n ≥ 1 y dibuje por pantalla un triángulo rectángulo de n
-filas, donde la fila i tiene i asteriscos.
+//Enunciado:Desarrolla un programa que lea un entero n ≥ 1 y dibuje por pantalla un triángulo rectángulo de n filas, donde la fila i tiene i asteriscos.
 
 #include <stdio.h>
 
