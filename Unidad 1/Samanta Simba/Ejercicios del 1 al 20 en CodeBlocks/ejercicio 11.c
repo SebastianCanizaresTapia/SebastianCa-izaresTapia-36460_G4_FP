@@ -1,7 +1,8 @@
 //Universidad de las Fuerzas Armadas ESPE
-//Nombre: Samanta Aracely Simba O�a
+//Nombre: Samanta Aracely Simba Oña
 //NRC:36460
 //Problema 1.1. Media de dos valores
+//Desarrolla un programa que ingrese dos números por teclado e imprima su media.
 
 #include <stdio.h>
 
