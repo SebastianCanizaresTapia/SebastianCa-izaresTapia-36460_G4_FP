@@ -11,8 +11,11 @@ int main() {
 
     printf("Ingrese un numero entero positivo mayor que 1: ");
     scanf("%d", &n);
-
+    
+//la primera estructura for nos ayuda a asignar valores e interpretar las filas 
     for (i = 1; i <= n; i++) {
+        
+        //la segunda estructura for nos ayuda a imprimir por pantalla los ateriscos
         for (j = 1; j <= i; j++) {
             printf("*");
         }
