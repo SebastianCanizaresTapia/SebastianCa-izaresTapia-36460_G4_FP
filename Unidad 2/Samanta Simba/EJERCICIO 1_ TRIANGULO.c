@@ -6,7 +6,7 @@ int main() {
     int n, i, j;
 do{
 
-    printf("Ingrese un numero entero positivo mayor que 1: ");
+    printf("Ingrese un numero entero: ");
     scanf("%d", &n);
 }while(n<=0);
     for (i = 1; i <= n; i++) {
