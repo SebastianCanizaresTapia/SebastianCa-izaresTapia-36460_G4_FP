@@ -1,5 +1,6 @@
 //Jhostyn Adriano Paca Perez
 //NRC:36460
+//Fecha : 11/11/2026
 #include<stdio.h>
 int main (){
 	int i, j, k, n;
