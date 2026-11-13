@@ -1,3 +1,5 @@
+//Nombre: Samanta Simba 
+//Taller 1
 #include <stdio.h>
 #include <math.h>
 
@@ -9,7 +11,7 @@ int main()
     int i = 0;
     int j = 0;
 
-    // Ejecutar el menú al menos una vez y repetir mientras la opción sea diferente de 3
+    // Ejecutar el menÃº al menos una vez y repetir mientras la opciÃ³n sea diferente de 3
     do
     {
         printf("          MENU           \n");
@@ -101,7 +103,7 @@ int main()
         }
 
     case 3:
-        printf("Gracias por entrar. ¡Hasta luego!\n");
+        printf("Gracias por entrar. Â¡Hasta luego!\n");
         break;
 
                 printf("No hay una opcion con ese numero. Intente de nuevo.\n");
