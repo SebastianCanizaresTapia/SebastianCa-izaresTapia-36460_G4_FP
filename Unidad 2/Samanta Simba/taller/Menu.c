@@ -2,7 +2,7 @@
 //Nombre: Samanta Simba 
 //Taller 1 de la unidad 2_ MENÚ
 #include <stdio.h>
-#include <stdlib.h> // Librería necesaria para utilizar system("cls")
+#include <stdlib.h> // Librería necesaria para utilizar system cls
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     int i = 0;
     int j = 0;
 
-    // Ciclo principal del menú que se repite hasta que el usuario elija la opción de salir (3)
+    // Ciclo principal del menú que se repite hasta que el usuario elija la opción de salir
     do
     {
         // Muestra el menú principal de opciones en la consola
@@ -27,7 +27,7 @@ int main()
         // Lee la opción ingresada por el usuario
         scanf("%d", &op);
 
-        // Estructura de control para direccionar la ejecución según la opción seleccionada
+        // Estructura de control para la ejecución según la opción seleccionada
         switch (op)
         {
             case 1:
@@ -65,7 +65,7 @@ int main()
 
                 // Pausa la ejecución para que el usuario pueda ver la figura antes de limpiar la pantalla
                 printf("\nPresione Enter para volver al menu...");
-                while (getchar() != '\n'); // Limpia el buffer de entrada
+                while (getchar() != '\n'); // Limpia la entrada
                 getchar(); // Espera a que el usuario presione una tecla
                 break;
             }
@@ -130,7 +130,7 @@ int main()
             case 3:
             {
                 // Mensaje de despedida antes de finalizar el programa
-                printf("Gracias por entrar. ¡Hasta luego!\n");
+                printf("Gracias por entrar\n");
                 break;
             }
 
