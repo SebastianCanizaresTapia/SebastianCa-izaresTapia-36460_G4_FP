@@ -1,11 +1,15 @@
+// Grupo 4
+// Integrantes: Jhostyn Paca, Samanta Simba, Sebastian CaÃ±izares
+// MenÃº que ejecuta un vector y una matriz de tipo flotante
+
 #include <stdio.h>
 
 int main() {
     int opcion;
 
-    // Bucle principal para mantener el menú activo hasta que el usuario decida salir
+    // Bucle principal para mantener el menÃº activo hasta que el usuario decida salir
     do {
-        // Menú principal
+        // MenÃº principal
         printf("\n========================================\n");
         printf("            GRUPO 4 - MENU PRINCIPAL       \n");
         printf("========================================\n");
@@ -19,7 +23,7 @@ int main() {
         if (scanf("%d%c", &op_val, &op_c) != 2 || op_c != '\n' || op_val < 1 || op_val > 3) {
             printf("\nError: Entrada no valida. Debe ingresar una opcion entre 1 y 3.\n");
             if (op_c != '\n') {
-                while (getchar() != '\n'); // Limpiar búfer
+                while (getchar() != '\n'); // Limpiar bÃºfer
             }
             continue;
         }
@@ -29,7 +33,7 @@ int main() {
             case 1: {
                 int n, i;
 
-                // RESTRICCIÓN: Validar que el tamaño del vector sea un entero válido y mayor que 0
+                // RESTRICCIÃ“N: Validar que el tamaÃ±o del vector sea un entero vÃ¡lido y mayor que 0
                 do {
                     printf("Ingrese la cantidad de elementos del vector (entero mayor que 0): ");
                     int temp_n;
@@ -50,7 +54,7 @@ int main() {
 
                 int vector[n];
 
-                // Llenado y validación de los elementos del vector (enteros y mayores que 0)
+                // Llenado y validaciÃ³n de los elementos del vector (enteros y mayores que 0)
                 for (i = 0; i < n; i++) {
                     int val;
                     char c;
@@ -59,9 +63,9 @@ int main() {
                         if (scanf("%d%c", &val, &c) != 2 || c != '\n') {
                             printf("Error: Debe ingresar un numero entero valido (sin decimales).\n");
                             if (c != '\n') {
-                                while (getchar() != '\n'); // Limpiar búfer si ingresó decimales o letras
+                                while (getchar() != '\n'); // Limpiar bÃºfer si ingresÃ³ decimales o letras
                             }
-                            val = -1; // Forzar repetición
+                            val = -1; // Forzar repeticiÃ³n
                         } else if (val <= 0) {
                             printf("Error: El valor debe ser mayor que 0.\n");
                         }
@@ -81,7 +85,7 @@ int main() {
             case 2: {
                 int filas, columnas, fila, columna, n, m;
 
-                // RESTRICCIÓN: Validar que las filas sean un entero mayor que 0
+                // RESTRICCIÃ“N: Validar que las filas sean un entero mayor que 0
                 do {
                     printf("Ingrese la cantidad de filas de la matriz (entero mayor que 0): ");
                     int temp_f;
@@ -100,7 +104,7 @@ int main() {
                     }
                 } while (filas <= 0);
 
-                // RESTRICCIÓN: Validar que las columnas sean un entero mayor que 0
+                // RESTRICCIÃ“N: Validar que las columnas sean un entero mayor que 0
                 do {
                     printf("Ingrese la cantidad de columnas de la matriz (entero mayor que 0): ");
                     int temp_col;
@@ -119,17 +123,17 @@ int main() {
                     }
                 } while (columnas <= 0);
 
-                // Declaración de la matriz con elementos flotantes
+                // DeclaraciÃ³n de la matriz con elementos flotantes
                 float matriz[filas][columnas];
 
-                // Llenado y validación de los elementos flotantes de la matriz (mayores que 0)
+                // Llenado y validaciÃ³n de los elementos flotantes de la matriz (mayores que 0)
                 for (fila = 0; fila < filas; fila++) {
                     for (columna = 0; columna < columnas; columna++) {
                         printf("Ingrese el valor flotante de a[%d][%d]: ", fila + 1, columna + 1);
                         if (scanf("%f", &matriz[fila][columna]) != 1) {
                             printf("Error: Entrada no valida.\n");
                             while (getchar() != '\n');
-                            matriz[fila][columna] = -1; // Forzar repetición
+                            matriz[fila][columna] = -1; // Forzar repeticiÃ³n
                         }
 
                         while (matriz[fila][columna] <= 0) {
@@ -155,7 +159,7 @@ int main() {
                 break;
 
             default:
-                printf("\nOpción no valida. Por favor, intente de nuevo.\n");
+                printf("\nOpciÃ³n no valida. Por favor, intente de nuevo.\n");
         }
 
     } while (opcion != 3);
