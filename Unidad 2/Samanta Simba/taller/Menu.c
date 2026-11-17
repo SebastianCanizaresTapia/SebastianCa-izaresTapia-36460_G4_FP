@@ -6,11 +6,11 @@
 
 int main()
 {
-    int op = 0;
-    int fil = 0;
-    int n = 0;
-    int i = 0;
-    int j = 0;
+    int op = 0; // Almacena la opción del menú elegida por el usuario
+    int fil = 0; //Almacena el número de filas para el marco de asteriscos
+    int n = 0; // Almacena la cantidad de términos para la serie de Fibonacci
+    int i = 0; // Variable de control para los bucles externos (Filas)
+    int j = 0; // Variable de control para los bucles internos (columnas)
 
     // Ciclo principal del menú que se repite hasta que el usuario elija la opción de salir
     do
@@ -45,12 +45,12 @@ int main()
                 }
                 while (fil <= 0);
 
-                // Bucles anidados para recorrer las filas y columnas y dibujar el marco exterior con asteriscos
+                // Bucles anidados para recorrer las filas y columnas
                 for (i = 0; i < fil; i++)
                 {
                     for (j = 0; j < fil; j++)
                     {
-                        // Imprime asteriscos en los bordes de la matriz y espacios en blanco en el interior
+                       // Condición para imprimir asteriscos solo en los bordes                        
                         if ((i == 0) || (i == fil - 1) || (j == 0) || (j == fil - 1))
                         {
                             printf("* ");
