@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+//Jhostyn Adriano Paca PÃ©rez
+//NRC:36460
+//Fecha: 22/11/2026 
+
 //Prototipos
 int  leerEnRango(int min, int max);
 int  diasDelMes(int mes);
@@ -9,7 +14,7 @@ void validarFecha(void);
 void serieLetras(void);
 void serieNumeros(void);
 
-//main: menú principal
+//main: menÃº principal
 int main() {
     int opcion;
 
@@ -58,7 +63,7 @@ void imprimirMes(int mes) {
     }
 }
 
-//Opción 1: validar fecha
+//OpciÃ³n 1: validar fecha
 void validarFecha() {
     int anio, mes, dia;
 
@@ -76,7 +81,7 @@ void validarFecha() {
     printf(" de %d\n", anio);
 }
 
-// Pide un entero y repite mientras esté fuera de [min, max]
+// Pide un entero y repite mientras estÃ© fuera de [min, max]
 int leerEnRango(int min, int max) {
     int valor;
     do {
@@ -86,7 +91,7 @@ int leerEnRango(int min, int max) {
     return valor;
 }
 
-//Cantidad máxima de días según el mes
+//Cantidad mÃ¡xima de dÃ­as segÃºn el mes
 int diasDelMes(int mes) {
     switch (mes) {
         case 4: case 6: case 9: case 11:
@@ -98,7 +103,7 @@ int diasDelMes(int mes) {
     }
 }
 
-//Opción 2: serie de letras
+//OpciÃ³n 2: serie de letras
 void serieLetras(void) {
     int n, i;
     char letra;
@@ -129,7 +134,7 @@ void serieLetras(void) {
     printf("\n");
 }
 
-//Opción 3: serie de números
+//OpciÃ³n 3: serie de nÃºmeros
 void serieNumeros(void) {
     int n, i;
     int a = 1;   /* primera subsecuencia: 1, 3, 5... */
@@ -138,7 +143,7 @@ void serieNumeros(void) {
     printf("Cantidad de terminos ");
     n = leerEnRango(0, 1000);
 
-    //a y b se reinician en 1 y 5 cada vez porque se declaran aquí dentro
+    //a y b se reinician en 1 y 5 cada vez porque se declaran aquÃ­ dentro
     for (i = 1; i <= n; i++) {
         if (i % 2 == 1) {
             printf("%d ", a);
